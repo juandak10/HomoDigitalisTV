@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Grafo de Digitalia</title>
+<script src="https://cdn.jsdelivr.net/npm/vis-network@9.1.9/standalone/umd/vis-network.min.js"></script>
+<style>
+  :root {
+    --bg: #28272E; --panel: #38373E; --line: #504544; --text: #E4DDD9; --muted: #9FA2A6;
+    --personaje: #E4DDD9; --grupo: #BEADA3; --locacion: #7A9CB8; --organizacion: #C0392B;
+    --episodio: #E1B530; --tema: #5B8C6A;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 14px/1.45 "Helvetica Neue", Arial, sans-serif; height: 100vh; display: grid; grid-template-columns: 1fr 340px; grid-template-rows: auto 1fr; }
+  header { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 12px; align-items: center; padding: 10px 16px; border-bottom: 1px solid var(--line); }
+  header h1 { font: 700 18px/1 "Arial Narrow", "Helvetica Neue", Arial, sans-serif; letter-spacing: .04em; text-transform: uppercase; margin: 0 12px 0 0; }
+  header h1 small { display: block; font-weight: 400; font-size: 11px; color: var(--muted); text-transform: none; letter-spacing: 0; margin-top: 3px; }
+  label.f { display: inline-flex; gap: 6px; align-items: center; cursor: pointer; user-select: none; }
+  .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+  input[type=search] { background: var(--panel); border: 1px solid var(--line); color: var(--text); padding: 6px 10px; border-radius: 6px; min-width: 200px; }
+  #net { min-height: 0; }
+  aside { border-left: 1px solid var(--line); background: var(--panel); overflow-y: auto; padding: 16px; }
+  aside h2 { margin: 0 0 4px; font-size: 18px; }
+  aside .meta { color: var(--muted); font-size: 12px; margin-bottom: 10px; }
+  aside img { width: 100%; border-radius: 8px; margin: 8px 0; }
+  aside dl { margin: 0 0 12px; } aside dt { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .06em; margin-top: 8px; } aside dd { margin: 2px 0 0; }
+  aside ul { padding-left: 0; list-style: none; margin: 0; } aside li { padding: 4px 0; border-bottom: 1px solid var(--line); }
+  aside li a { color: var(--text); cursor: pointer; text-decoration: underline; text-decoration-color: var(--muted); }
+  aside code { color: var(--muted); font-size: 12px; }
+  a.ficha { display: inline-block; margin-top: 12px; color: var(--bg); background: var(--text); padding: 6px 12px; border-radius: 6px; text-decoration: none; font-weight: 700; }
+  @media (max-width: 800px) { body { grid-template-columns: 1fr; grid-template-rows: auto 60vh auto; } aside { border-left: 0; border-top: 1px solid var(--line); } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Digitalia <small>Personajes · lugares · organizaciones · intenciones</small></h1>
+  <div id="filtros" style="display:flex;gap:14px;flex-wrap:wrap"></div>
+  <input type="search" id="buscar" placeholder="Buscar personaje o lugar…">
+</header>
+<div id="net"></div>
+<aside id="panel"><p style="color:var(--muted)">Haz clic en un nodo para ver quién es, qué quiere, qué teme y con quién se conecta.</p></aside>
+<script>
+const DATA = /*__DATA__*/null;
+const css = getComputedStyle(document.documentElement);
+const TIPOS = {
+  personaje: { nombre: "Personajes", shape: "dot", size: 18 },
+  grupo: { nombre: "Grupos", shape: "dot", size: 14 },
+  locacion: { nombre: "Lugares", shape: "square", size: 13 },
+  organizacion: { nombre: "Organizaciones", shape: "hexagon", size: 20 },
+  episodio: { nombre: "Episodios", shape: "star", size: 16 },
+  tema: { nombre: "Temas", shape: "triangle", size: 11 },
+};
+const color = (t) => css.getPropertyValue("--" + t).trim();
+const activos = new Set(["personaje", "grupo", "locacion", "organizacion", "episodio"]);
+const byId = Object.fromEntries(DATA.nodos.map((n) => [n.id, n]));
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+const nodes = new vis.DataSet(DATA.nodos.map((n) => ({
+  id: n.id, label: n.nombre, tipo: n.tipo, shape: TIPOS[n.tipo].shape, size: TIPOS[n.tipo].size,
+  color: { background: color(n.tipo), border: "#1b1a1f", highlight: { background: "#fff", border: "#fff" } },
+  font: { color: css.getPropertyValue("--text").trim(), size: n.tipo === "tema" ? 11 : 13, strokeWidth: 3, strokeColor: "#28272E" },
+  opacity: n.estado === "propuesto" ? 0.55 : 1,
+})));
+const edges = new vis.DataSet(DATA.relaciones.map((r, i) => ({
+  id: i, from: r.de, to: r.a, label: r.tipo.replace(/_/g, " "), title: r.nota || r.tipo, arrows: "to",
+  font: { size: 9, color: "#9FA2A6", strokeWidth: 0, align: "middle" },
+  color: { color: "#504544", highlight: "#E4DDD9" }, smooth: { type: "continuous" },
+})));
+const view = new vis.DataView(nodes, { filter: (n) => activos.has(n.tipo) });
+const net = new vis.Network(document.getElementById("net"), { nodes: view, edges }, {
+  physics: { solver: "forceAtlas2Based", forceAtlas2Based: { gravitationalConstant: -60, springLength: 110 }, stabilization: { iterations: 250 } },
+  interaction: { hover: true, tooltipDelay: 150 },
+});
+
+const filtros = document.getElementById("filtros");
+for (const [t, cfg] of Object.entries(TIPOS)) {
+  const l = document.createElement("label"); l.className = "f";
+  l.innerHTML = `<input type="checkbox" ${activos.has(t) ? "checked" : ""}><span class="dot" style="background:${color(t)}"></span>${cfg.nombre}`;
+  l.querySelector("input").onchange = (e) => { e.target.checked ? activos.add(t) : activos.delete(t); view.refresh(); };
+  filtros.appendChild(l);
+}
+
+function mostrar(id) {
+  const n = byId[id]; if (!n) return;
+  const rels = DATA.relaciones.filter((r) => r.de === id || r.a === id).map((r) => {
+    const otro = r.de === id ? r.a : r.de, flecha = r.de === id ? "→" : "←";
+    return `<li>${flecha} <code>${esc(r.tipo)}</code> <a data-id="${esc(otro)}">${esc(byId[otro].nombre)}</a>${r.nota ? ` — <span style="color:var(--muted)">${esc(r.nota)}</span>` : ""}</li>`;
+  }).join("");
+  document.getElementById("panel").innerHTML = `
+    <h2>${esc(n.nombre)}</h2>
+    <div class="meta">${esc(TIPOS[n.tipo].nombre.slice(0, -1))}${n.arquetipo ? " · " + esc(n.arquetipo) : ""}${n.subtipo ? " · " + esc(n.subtipo) : ""}${n.estado ? " · " + esc(n.estado) : ""}</div>
+    ${n.imagen ? `<img src="../${esc(n.imagen)}" alt="">` : ""}
+    <dl>
+      ${n.quiere ? `<dt>Quiere</dt><dd>${esc(n.quiere)}</dd>` : ""}
+      ${n.teme ? `<dt>Teme</dt><dd>${esc(n.teme)}</dd>` : ""}
+      ${n.descripcion ? `<dt>Qué es</dt><dd>${esc(n.descripcion)}</dd>` : ""}
+    </dl>
+    <dt style="color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.06em">Conexiones (${DATA.relaciones.filter((r) => r.de === id || r.a === id).length})</dt>
+    <ul>${rels}</ul>
+    ${n.ficha ? `<a class="ficha" href="../${esc(n.ficha)}">Abrir ficha</a>` : ""}`;
+  document.querySelectorAll("#panel a[data-id]").forEach((a) => a.onclick = () => enfocar(a.dataset.id));
+}
+function enfocar(id) {
+  const t = byId[id].tipo; if (!activos.has(t)) { activos.add(t); view.refresh(); filtros.querySelectorAll("input")[Object.keys(TIPOS).indexOf(t)].checked = true; }
+  net.selectNodes([id]); net.focus(id, { scale: 1.2, animation: true }); mostrar(id);
+}
+net.on("click", (p) => p.nodes.length && mostrar(p.nodes[0]));
+document.getElementById("buscar").addEventListener("change", (e) => {
+  const q = e.target.value.toLowerCase().trim(); if (!q) return;
+  const hit = DATA.nodos.find((n) => n.nombre.toLowerCase().includes(q) || n.id.includes(q) || (n.arquetipo || "").toLowerCase().includes(q));
+  if (hit) enfocar(hit.id);
+});
+</script>
+</body>
+</html>

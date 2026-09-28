@@ -1,0 +1,1831 @@
+{
+  "version": 1,
+  "ciudad": "Digitalia",
+  "nodos": [
+    {
+      "id": "el-homo-digitalis",
+      "tipo": "personaje",
+      "nombre": "Homo Digitalis (\"El Promedio\")",
+      "arquetipo": "La mascota / el ciudadano promedio",
+      "estado": "diseñado",
+      "quiere": "Una notificación que le dé sentido a su día.",
+      "teme": "La batería al 1%.",
+      "temas": [
+        "adiccion-digital"
+      ],
+      "ficha": "03-personajes/el-homo-digitalis/ficha.md",
+      "imagen": null
+    },
+    {
+      "id": "el-alcalde",
+      "tipo": "personaje",
+      "nombre": "Alcalde Hernán Primera Piedra",
+      "arquetipo": "El alcalde",
+      "estado": "diseñado",
+      "quiere": "La foto de la inauguración (y la reelección).",
+      "teme": "Terminar una obra: se acaba el show.",
+      "temas": [
+        "politica-show",
+        "abandono-estatal"
+      ],
+      "ficha": "03-personajes/el-alcalde/ficha.md",
+      "imagen": "03-personajes/el-alcalde/imagenes/alcalde-inaugurando-bache.jpg"
+    },
+    {
+      "id": "el-politico",
+      "tipo": "personaje",
+      "nombre": "Senador Octavio Promesas",
+      "arquetipo": "El político",
+      "estado": "propuesto",
+      "quiere": "Ser trending topic.",
+      "teme": "Que desentierren sus tuits de 2014.",
+      "temas": [
+        "politica-show",
+        "polarizacion"
+      ],
+      "ficha": "03-personajes/el-politico/ficha.md",
+      "imagen": null
+    },
+    {
+      "id": "el-ceo-tech",
+      "tipo": "personaje",
+      "nombre": "Elón Mosca",
+      "arquetipo": "El CEO",
+      "estado": "diseñado",
+      "quiere": "Irse a Marte (lejos de la ciudad que automatizó).",
+      "teme": "Que los robots pidan sindicato.",
+      "temas": [
+        "ia-automatizacion",
+        "cultura-corporativa"
+      ],
+      "ficha": "03-personajes/el-ceo-tech/ficha.md",
+      "imagen": "03-personajes/el-ceo-tech/imagenes/lanzamiento-robots-01.jpg"
+    },
+    {
+      "id": "el-capitalista",
+      "tipo": "personaje",
+      "nombre": "Larry Finque",
+      "arquetipo": "El capitalista",
+      "estado": "canon",
+      "quiere": "Comprar la próxima protesta antes de que empiece.",
+      "teme": "Nada. Tal vez un trimestre plano.",
+      "temas": [
+        "corporaciones-absorben-protesta",
+        "vigilancia-datos"
+      ],
+      "ficha": "03-personajes/el-capitalista/ficha.md",
+      "imagen": "03-personajes/el-capitalista/imagenes/larry-finque-sala-de-juntas.jpg"
+    },
+    {
+      "id": "los-socios",
+      "tipo": "grupo",
+      "nombre": "Los Socios",
+      "arquetipo": "Grupo · junta directiva de Blakrok",
+      "estado": "canon",
+      "quiere": "El bono.",
+      "teme": "Tener una opinión.",
+      "temas": [
+        "cultura-corporativa"
+      ],
+      "ficha": "03-personajes/los-socios/ficha.md",
+      "imagen": null
+    },
+    {
+      "id": "el-empresario",
+      "tipo": "personaje",
+      "nombre": "Mauricio Sinergia",
+      "arquetipo": "El empresario",
+      "estado": "canon",
+      "quiere": "Ser Top Voice de LinkedIn.",
+      "teme": "Que el robot de Xpacio también lo reemplace a él.",
+      "temas": [
+        "cultura-corporativa",
+        "ia-automatizacion"
+      ],
+      "ficha": "03-personajes/el-empresario/ficha.md",
+      "imagen": null
+    },
+    {
+      "id": "el-asalariado",
+      "tipo": "personaje",
+      "nombre": "Wilson Pérez",
+      "arquetipo": "El típico asalariado",
+      "estado": "canon",
+      "quiere": "Estabilidad. Un \"#OpenToWork\" que funcione.",
+      "teme": "La palabra \"reestructuración\".",
+      "temas": [
+        "cultura-corporativa",
+        "ia-automatizacion"
+      ],
+      "ficha": "03-personajes/el-asalariado/ficha.md",
+      "imagen": "03-personajes/el-asalariado/imagenes/wilson-despedido-moogle.jpg"
+    },
+    {
+      "id": "el-inversionista",
+      "tipo": "personaje",
+      "nombre": "Andrés \"El Bull\" Rentería",
+      "arquetipo": "El inversionista / trader de celular",
+      "estado": "canon",
+      "quiere": "Que el portafolio suba.",
+      "teme": "Ser el cliente de su propia inversión.",
+      "temas": [
+        "capitalismo-de-conveniencia",
+        "polarizacion"
+      ],
+      "ficha": "03-personajes/el-inversionista/ficha.md",
+      "imagen": "03-personajes/el-inversionista/imagenes/andres-en-el-carro.jpg"
+    },
+    {
+      "id": "el-bombero",
+      "tipo": "personaje",
+      "nombre": "Jhon Fredy",
+      "arquetipo": "El trabajador (straight man)",
+      "estado": "canon",
+      "quiere": "Que se acabe el turno.",
+      "teme": "Nada; gana el mínimo.",
+      "temas": [
+        "capitalismo-de-conveniencia"
+      ],
+      "ficha": "03-personajes/el-bombero/ficha.md",
+      "imagen": "03-personajes/el-bombero/imagenes/jhon-fredy.jpg"
+    },
+    {
+      "id": "el-humano-offline",
+      "tipo": "personaje",
+      "nombre": "Rodrigo Nadie",
+      "arquetipo": "El último humano offline",
+      "estado": "canon",
+      "quiere": "Comerse un helado en paz.",
+      "teme": "Los agentes de verificación.",
+      "temas": [
+        "vigilancia-datos",
+        "adiccion-digital"
+      ],
+      "ficha": "03-personajes/el-humano-offline/ficha.md",
+      "imagen": "03-personajes/el-humano-offline/imagenes/rodrigo-asustado.jpg"
+    },
+    {
+      "id": "los-zombis-digitales",
+      "tipo": "grupo",
+      "nombre": "Los Zombis Digitales",
+      "arquetipo": "Grupo · la masa conectada",
+      "estado": "canon",
+      "quiere": "Contenido.",
+      "teme": "Perderse algo.",
+      "temas": [
+        "adiccion-digital"
+      ],
+      "ficha": "03-personajes/los-zombis-digitales/ficha.md",
+      "imagen": null
+    },
+    {
+      "id": "los-agentes",
+      "tipo": "grupo",
+      "nombre": "Agentes de Verificación",
+      "arquetipo": "Grupo · seguridad de Blakrok",
+      "estado": "canon",
+      "quiere": "Datos.",
+      "teme": "Un humano sin huella digital.",
+      "temas": [
+        "vigilancia-datos"
+      ],
+      "ficha": "03-personajes/los-agentes/ficha.md",
+      "imagen": null
+    },
+    {
+      "id": "los-manifestantes",
+      "tipo": "grupo",
+      "nombre": "Los Manifestantes de Pelo Azul",
+      "arquetipo": "Grupo · la resistencia patrocinada",
+      "estado": "canon",
+      "quiere": "Derribar a Blakrok.",
+      "teme": "Que su tintura se descontinúe.",
+      "temas": [
+        "corporaciones-absorben-protesta",
+        "activismo-performativo"
+      ],
+      "ficha": "03-personajes/los-manifestantes/ficha.md",
+      "imagen": null
+    },
+    {
+      "id": "la-mujer-empoderada",
+      "tipo": "personaje",
+      "nombre": "Valentina Ríos",
+      "arquetipo": "La mujer empoderada",
+      "estado": "canon",
+      "quiere": "Un hombre con iPhone, carro e ingresos altos.",
+      "teme": "Que la vean con alguien que tiene Android.",
+      "temas": [
+        "apps-de-citas",
+        "adiccion-digital"
+      ],
+      "ficha": "03-personajes/la-mujer-empoderada/ficha.md",
+      "imagen": "03-personajes/la-mujer-empoderada/imagenes/valentina-primer-plano.jpg"
+    },
+    {
+      "id": "la-feminista",
+      "tipo": "personaje",
+      "nombre": "Zuri Palacios",
+      "arquetipo": "La feminista",
+      "estado": "canon",
+      "quiere": "Que alguien termine de escuchar su podcast.",
+      "teme": "Que su marca aliada resulte ser de Blakrok.",
+      "temas": [
+        "activismo-performativo",
+        "apps-de-citas"
+      ],
+      "ficha": "03-personajes/la-feminista/ficha.md",
+      "imagen": null
+    },
+    {
+      "id": "el-buen-tipo",
+      "tipo": "personaje",
+      "nombre": "Julián Moreno",
+      "arquetipo": "El buen tipo (con Android)",
+      "estado": "canon",
+      "quiere": "Una segunda cita.",
+      "teme": "Que le pregunten el modelo de su celular.",
+      "temas": [
+        "apps-de-citas"
+      ],
+      "ficha": "03-personajes/el-buen-tipo/ficha.md",
+      "imagen": "03-personajes/el-buen-tipo/imagenes/julian-en-la-cita.jpg"
+    },
+    {
+      "id": "dona-yesenia",
+      "tipo": "personaje",
+      "nombre": "Doña Yesenia Buitrago",
+      "arquetipo": "La consumidora total",
+      "estado": "diseñado",
+      "quiere": "No levantarse nunca más.",
+      "teme": "Que se caiga el Wi‑Fi.",
+      "temas": [
+        "ia-automatizacion",
+        "adiccion-digital"
+      ],
+      "ficha": "03-personajes/dona-yesenia/ficha.md",
+      "imagen": "03-personajes/dona-yesenia/imagenes/yesenia-en-la-cama.jpg"
+    },
+    {
+      "id": "el-robot",
+      "tipo": "personaje",
+      "nombre": "Unidad‑7 (\"Siete\")",
+      "arquetipo": "El robot",
+      "estado": "diseñado",
+      "quiere": "Un día libre. Entender para qué existe.",
+      "teme": "La actualización obligatoria de las 3 a.m.",
+      "temas": [
+        "ia-automatizacion"
+      ],
+      "ficha": "03-personajes/el-robot/ficha.md",
+      "imagen": "03-personajes/el-robot/imagenes/robot-deprimido-en-la-sala.jpg"
+    },
+    {
+      "id": "don-ubaldo",
+      "tipo": "personaje",
+      "nombre": "Don Ubaldo",
+      "arquetipo": "El pensionado / el pueblo",
+      "estado": "diseñado",
+      "quiere": "Que nunca tapen su bache.",
+      "teme": "La pavimentación.",
+      "temas": [
+        "abandono-estatal"
+      ],
+      "ficha": "03-personajes/don-ubaldo/ficha.md",
+      "imagen": null
+    },
+    {
+      "id": "el-gym-bro",
+      "tipo": "personaje",
+      "nombre": "Brayan \"Proteína\" Castaño",
+      "arquetipo": "El gym bro",
+      "estado": "propuesto",
+      "quiere": "Llegar a 100k seguidores.",
+      "teme": "El día de pierna sin wifi.",
+      "temas": [
+        "cultura-fitness",
+        "adiccion-digital"
+      ],
+      "ficha": "03-personajes/el-gym-bro/ficha.md",
+      "imagen": null
+    },
+    {
+      "id": "la-lesbiana",
+      "tipo": "personaje",
+      "nombre": "María José \"Majo\" Cárdenas",
+      "arquetipo": "La lesbiana",
+      "estado": "propuesto",
+      "quiere": "Que las marcas le paguen, no que la \"celebren\".",
+      "teme": "Otro junio de logos arcoíris.",
+      "temas": [
+        "tokenismo",
+        "corporaciones-absorben-protesta"
+      ],
+      "ficha": "03-personajes/la-lesbiana/ficha.md",
+      "imagen": null
+    },
+    {
+      "id": "el-gay",
+      "tipo": "personaje",
+      "nombre": "Sebastián \"Sebas\" Luján",
+      "arquetipo": "El gay",
+      "estado": "propuesto",
+      "quiere": "Un aumento (no un post de agradecimiento).",
+      "teme": "Que los manifestantes descubran quién escribió sus pancartas.",
+      "temas": [
+        "tokenismo",
+        "corporaciones-absorben-protesta"
+      ],
+      "ficha": "03-personajes/el-gay/ficha.md",
+      "imagen": null
+    },
+    {
+      "id": "el-negro",
+      "tipo": "personaje",
+      "nombre": "Marlon Mosquera",
+      "arquetipo": "El negro",
+      "estado": "propuesto",
+      "quiere": "Que su nombre salga en la patente.",
+      "teme": "Otra foto para el reporte de diversidad.",
+      "temas": [
+        "tokenismo",
+        "ia-automatizacion"
+      ],
+      "ficha": "03-personajes/el-negro/ficha.md",
+      "imagen": null
+    },
+    {
+      "id": "el-asiatico",
+      "tipo": "personaje",
+      "nombre": "Kevin Chen Restrepo",
+      "arquetipo": "El asiático",
+      "estado": "propuesto",
+      "quiere": "Que lo contraten para bailar, no para \"configurar el router\".",
+      "teme": "Otro \"¿tú sabes de computadores, cierto?\".",
+      "temas": [
+        "tokenismo",
+        "vigilancia-datos"
+      ],
+      "ficha": "03-personajes/el-asiatico/ficha.md",
+      "imagen": null
+    },
+    {
+      "id": "el-enano",
+      "tipo": "personaje",
+      "nombre": "Antonio \"Toño El Grande\" Giraldo",
+      "arquetipo": "El enano",
+      "estado": "propuesto",
+      "quiere": "Ganar las elecciones… gane quien gane.",
+      "teme": "Que el alcalde y el senador comparen facturas.",
+      "temas": [
+        "politica-show",
+        "desinformacion"
+      ],
+      "ficha": "03-personajes/el-enano/ficha.md",
+      "imagen": null
+    },
+    {
+      "id": "el-payaso",
+      "tipo": "personaje",
+      "nombre": "Chispitas",
+      "arquetipo": "El payaso",
+      "estado": "propuesto",
+      "quiere": "Que no le roben el show los del Concejo.",
+      "teme": "Volverse candidato.",
+      "temas": [
+        "politica-show",
+        "desinformacion"
+      ],
+      "ficha": "03-personajes/el-payaso/ficha.md",
+      "imagen": null
+    },
+    {
+      "id": "el-intelectual",
+      "tipo": "personaje",
+      "nombre": "Profesor Aurelio Contexto",
+      "arquetipo": "El intelectual",
+      "estado": "propuesto",
+      "quiere": "Que alguien lea el hilo completo.",
+      "teme": "Una respuesta de 5 palabras.",
+      "temas": [
+        "polarizacion",
+        "desinformacion"
+      ],
+      "ficha": "03-personajes/el-intelectual/ficha.md",
+      "imagen": null
+    },
+    {
+      "id": "el-de-izquierda",
+      "tipo": "personaje",
+      "nombre": "Nicolás \"Nico\" Barricada",
+      "arquetipo": "El de izquierda",
+      "estado": "propuesto",
+      "quiere": "Derrocar al sistema (después del parcial).",
+      "teme": "Que le corten la tarjeta de crédito.",
+      "temas": [
+        "polarizacion",
+        "activismo-performativo"
+      ],
+      "ficha": "03-personajes/el-de-izquierda/ficha.md",
+      "imagen": null
+    },
+    {
+      "id": "el-de-derecha",
+      "tipo": "personaje",
+      "nombre": "Don Álvaro Mano Firme",
+      "arquetipo": "El de derecha",
+      "estado": "propuesto",
+      "quiere": "Que vuelva el orden (y que Nico se gradúe).",
+      "teme": "Que le cambien el WhatsApp.",
+      "temas": [
+        "polarizacion",
+        "desinformacion"
+      ],
+      "ficha": "03-personajes/el-de-derecha/ficha.md",
+      "imagen": null
+    },
+    {
+      "id": "torre-blakrok",
+      "tipo": "locacion",
+      "nombre": "Torre Blakrok",
+      "subtipo": "Corporativo",
+      "estado": "canon",
+      "ficha": "04-locaciones/torre-blakrok/ficha.md",
+      "imagen": "04-locaciones/torre-blakrok/imagenes/exterior-torre.jpg"
+    },
+    {
+      "id": "oficinas-moogle",
+      "tipo": "locacion",
+      "nombre": "Oficinas de Moogle",
+      "subtipo": "Corporativo",
+      "estado": "canon",
+      "ficha": "04-locaciones/oficinas-moogle/ficha.md",
+      "imagen": "04-locaciones/oficinas-moogle/imagenes/exterior-moogle.jpg"
+    },
+    {
+      "id": "hangar-xpacio",
+      "tipo": "locacion",
+      "nombre": "Hangar de lanzamientos Xpacio",
+      "subtipo": "Corporativo",
+      "estado": "diseñado",
+      "ficha": "04-locaciones/hangar-xpacio/ficha.md",
+      "imagen": null
+    },
+    {
+      "id": "calle-del-bache",
+      "tipo": "locacion",
+      "nombre": "Calle del Bache (Barrio La Esperanza)",
+      "subtipo": "Barrio popular",
+      "estado": "diseñado",
+      "ficha": "04-locaciones/calle-del-bache/ficha.md",
+      "imagen": "04-locaciones/calle-del-bache/imagenes/bache-atraccion-turistica.jpg"
+    },
+    {
+      "id": "plaza-central",
+      "tipo": "locacion",
+      "nombre": "Plaza Central / Avenida Principal",
+      "subtipo": "Espacio público",
+      "estado": "canon",
+      "ficha": "04-locaciones/plaza-central/ficha.md",
+      "imagen": null
+    },
+    {
+      "id": "parque-central",
+      "tipo": "locacion",
+      "nombre": "Parque Central (la banca)",
+      "subtipo": "Espacio público",
+      "estado": "canon",
+      "ficha": "04-locaciones/parque-central/ficha.md",
+      "imagen": null
+    },
+    {
+      "id": "gasolinera-tervonx",
+      "tipo": "locacion",
+      "nombre": "Gasolinera Tervonx",
+      "subtipo": "Comercio",
+      "estado": "canon",
+      "ficha": "04-locaciones/gasolinera-tervonx/ficha.md",
+      "imagen": null
+    },
+    {
+      "id": "restaurante-la-terraza",
+      "tipo": "locacion",
+      "nombre": "Restaurante La Terraza",
+      "subtipo": "Comercio",
+      "estado": "canon",
+      "ficha": "04-locaciones/restaurante-la-terraza/ficha.md",
+      "imagen": "04-locaciones/restaurante-la-terraza/imagenes/cita-julian-y-valentina.jpg"
+    },
+    {
+      "id": "apartamento-de-valentina",
+      "tipo": "locacion",
+      "nombre": "Apartamento de Valentina",
+      "subtipo": "Vivienda",
+      "estado": "canon",
+      "ficha": "04-locaciones/apartamento-de-valentina/ficha.md",
+      "imagen": "04-locaciones/apartamento-de-valentina/imagenes/sala-valentina-y-zuri.jpg"
+    },
+    {
+      "id": "apartamento-de-yesenia",
+      "tipo": "locacion",
+      "nombre": "Apartamento de Doña Yesenia",
+      "subtipo": "Vivienda",
+      "estado": "diseñado",
+      "ficha": "04-locaciones/apartamento-de-yesenia/ficha.md",
+      "imagen": null
+    },
+    {
+      "id": "alcaldia",
+      "tipo": "locacion",
+      "nombre": "Edificio de la Alcaldía",
+      "subtipo": "Institucional",
+      "estado": "propuesto",
+      "ficha": "04-locaciones/alcaldia/ficha.md",
+      "imagen": null
+    },
+    {
+      "id": "gimnasio-alpha-mindset",
+      "tipo": "locacion",
+      "nombre": "Gimnasio Alpha Mindset",
+      "subtipo": "Comercio",
+      "estado": "propuesto",
+      "ficha": "04-locaciones/gimnasio-alpha-mindset/ficha.md",
+      "imagen": null
+    },
+    {
+      "id": "cafe-contexto",
+      "tipo": "locacion",
+      "nombre": "Café Contexto",
+      "subtipo": "Comercio",
+      "estado": "propuesto",
+      "ficha": "04-locaciones/cafe-contexto/ficha.md",
+      "imagen": null
+    },
+    {
+      "id": "taller-de-majo",
+      "tipo": "locacion",
+      "nombre": "Taller de Bicis de Majo",
+      "subtipo": "Comercio",
+      "estado": "propuesto",
+      "ficha": "04-locaciones/taller-de-majo/ficha.md",
+      "imagen": null
+    },
+    {
+      "id": "esquina-del-semaforo",
+      "tipo": "locacion",
+      "nombre": "La Esquina del Semáforo",
+      "subtipo": "Espacio público",
+      "estado": "propuesto",
+      "ficha": "04-locaciones/esquina-del-semaforo/ficha.md",
+      "imagen": null
+    },
+    {
+      "id": "restaurante-chen",
+      "tipo": "locacion",
+      "nombre": "Chen's",
+      "subtipo": "Comercio",
+      "estado": "propuesto",
+      "ficha": "04-locaciones/restaurante-chen/ficha.md",
+      "imagen": null
+    },
+    {
+      "id": "grupo-familia-unida",
+      "tipo": "locacion",
+      "nombre": "Grupo de WhatsApp \"Familia Unida 🙏\"",
+      "subtipo": "Lugar digital",
+      "estado": "propuesto",
+      "ficha": "04-locaciones/grupo-familia-unida/ficha.md",
+      "imagen": null
+    },
+    {
+      "id": "blakrok",
+      "tipo": "organizacion",
+      "nombre": "Blakrok",
+      "descripcion": "Fondo de inversión dueño de casi todo. Seguridad privada propia (Agentes de Verificación). Parodia de BlackRock."
+    },
+    {
+      "id": "moogle",
+      "tipo": "organizacion",
+      "nombre": "Moogle",
+      "descripcion": "Gigante tecnológico. Lema: \"Aquí somos familia S.A.S.\". Parodia de Google."
+    },
+    {
+      "id": "xpacio",
+      "tipo": "organizacion",
+      "nombre": "Xpacio",
+      "descripcion": "Robots humanoides y cohetes. Logo: anillo + cohete. Parodia de Tesla/SpaceX."
+    },
+    {
+      "id": "tervonx",
+      "tipo": "organizacion",
+      "nombre": "Tervonx",
+      "descripcion": "Petrolera y cadena de gasolineras. Sube precios 40 % cuando quiere."
+    },
+    {
+      "id": "matchi",
+      "tipo": "organizacion",
+      "nombre": "Matchi",
+      "descripcion": "App de citas con filtros de \"preferencias\" (Sin Android, Tiene carro, Ingresos altos)."
+    },
+    {
+      "id": "gobierno-digitalia",
+      "tipo": "organizacion",
+      "nombre": "Gobierno de Digitalia",
+      "descripcion": "Gobierno local. Especialista en primeras piedras."
+    },
+    {
+      "id": "EP001",
+      "tipo": "episodio",
+      "nombre": "EP001 · Humano OFFLINE",
+      "ficha": "06-episodios/EP001-humano-offline/README.md",
+      "temas": [
+        "vigilancia-datos",
+        "adiccion-digital"
+      ]
+    },
+    {
+      "id": "EP002",
+      "tipo": "episodio",
+      "nombre": "EP002 · Red Flags Femeninas",
+      "ficha": "06-episodios/EP002-red-flags-femeninas/README.md",
+      "temas": [
+        "apps-de-citas"
+      ]
+    },
+    {
+      "id": "EP003",
+      "tipo": "episodio",
+      "nombre": "EP003 · ¡Abajo las corporaciones!",
+      "ficha": "06-episodios/EP003-abajo-las-corporaciones/README.md",
+      "temas": [
+        "corporaciones-absorben-protesta",
+        "activismo-performativo"
+      ]
+    },
+    {
+      "id": "EP004",
+      "tipo": "episodio",
+      "nombre": "EP004 · El capital es bueno hasta que…",
+      "ficha": "06-episodios/EP004-el-capital-es-bueno-hasta-que/README.md",
+      "temas": [
+        "capitalismo-de-conveniencia"
+      ]
+    },
+    {
+      "id": "EP005",
+      "tipo": "episodio",
+      "nombre": "EP005 · Nuevos retos",
+      "ficha": "06-episodios/EP005-nuevos-retos/README.md",
+      "temas": [
+        "cultura-corporativa",
+        "ia-automatizacion"
+      ]
+    },
+    {
+      "id": "adiccion-digital",
+      "tipo": "tema",
+      "nombre": "Adicción al celular y vida para las redes"
+    },
+    {
+      "id": "corporaciones-absorben-protesta",
+      "tipo": "tema",
+      "nombre": "El sistema compra y vende la protesta"
+    },
+    {
+      "id": "ia-automatizacion",
+      "tipo": "tema",
+      "nombre": "IA, robots y reemplazo del trabajo"
+    },
+    {
+      "id": "politica-show",
+      "tipo": "tema",
+      "nombre": "Política como espectáculo y populismo"
+    },
+    {
+      "id": "apps-de-citas",
+      "tipo": "tema",
+      "nombre": "Apps de citas y amor por filtros"
+    },
+    {
+      "id": "capitalismo-de-conveniencia",
+      "tipo": "tema",
+      "nombre": "Capitalista cuando gano, anticapitalista cuando pago"
+    },
+    {
+      "id": "vigilancia-datos",
+      "tipo": "tema",
+      "nombre": "Vigilancia, datos e identidad digital"
+    },
+    {
+      "id": "cultura-corporativa",
+      "tipo": "tema",
+      "nombre": "\"Somos familia\": cultura corporativa tóxica"
+    },
+    {
+      "id": "polarizacion",
+      "tipo": "tema",
+      "nombre": "Polarización izquierda vs. derecha"
+    },
+    {
+      "id": "cultura-fitness",
+      "tipo": "tema",
+      "nombre": "Cultura fitness y productividad performativa"
+    },
+    {
+      "id": "abandono-estatal",
+      "tipo": "tema",
+      "nombre": "Infraestructura abandonada y obras eternas"
+    },
+    {
+      "id": "activismo-performativo",
+      "tipo": "tema",
+      "nombre": "Activismo performativo"
+    },
+    {
+      "id": "tokenismo",
+      "tipo": "tema",
+      "nombre": "Diversidad de vitrina y tokenismo"
+    },
+    {
+      "id": "desinformacion",
+      "tipo": "tema",
+      "nombre": "Desinformación y cadenas de WhatsApp"
+    }
+  ],
+  "relaciones": [
+    {
+      "de": "blakrok",
+      "a": "torre-blakrok",
+      "tipo": "sede",
+      "nota": ""
+    },
+    {
+      "de": "moogle",
+      "a": "oficinas-moogle",
+      "tipo": "sede",
+      "nota": ""
+    },
+    {
+      "de": "xpacio",
+      "a": "hangar-xpacio",
+      "tipo": "sede",
+      "nota": ""
+    },
+    {
+      "de": "tervonx",
+      "a": "gasolinera-tervonx",
+      "tipo": "sede",
+      "nota": ""
+    },
+    {
+      "de": "gobierno-digitalia",
+      "a": "alcaldia",
+      "tipo": "sede",
+      "nota": ""
+    },
+    {
+      "de": "blakrok",
+      "a": "moogle",
+      "tipo": "dueno_de",
+      "nota": "accionista mayoritario"
+    },
+    {
+      "de": "blakrok",
+      "a": "xpacio",
+      "tipo": "dueno_de",
+      "nota": "financia los robots"
+    },
+    {
+      "de": "blakrok",
+      "a": "tervonx",
+      "tipo": "dueno_de",
+      "nota": "y se beneficia del +40 %"
+    },
+    {
+      "de": "blakrok",
+      "a": "matchi",
+      "tipo": "dueno_de",
+      "nota": "vende los datos de preferencias"
+    },
+    {
+      "de": "blakrok",
+      "a": "gobierno-digitalia",
+      "tipo": "financia",
+      "nota": "la campaña del alcalde"
+    },
+    {
+      "de": "el-capitalista",
+      "a": "blakrok",
+      "tipo": "dirige",
+      "nota": ""
+    },
+    {
+      "de": "los-socios",
+      "a": "blakrok",
+      "tipo": "trabaja_en",
+      "nota": "junta directiva"
+    },
+    {
+      "de": "los-agentes",
+      "a": "blakrok",
+      "tipo": "trabaja_en",
+      "nota": "seguridad y verificación"
+    },
+    {
+      "de": "el-gay",
+      "a": "blakrok",
+      "tipo": "trabaja_en",
+      "nota": "community manager"
+    },
+    {
+      "de": "el-ceo-tech",
+      "a": "xpacio",
+      "tipo": "dirige",
+      "nota": ""
+    },
+    {
+      "de": "el-negro",
+      "a": "xpacio",
+      "tipo": "trabaja_en",
+      "nota": "ingeniero jefe"
+    },
+    {
+      "de": "el-empresario",
+      "a": "moogle",
+      "tipo": "dirige",
+      "nota": "gerente regional"
+    },
+    {
+      "de": "el-asalariado",
+      "a": "moogle",
+      "tipo": "ex_empleado",
+      "nota": "despedido en EP005"
+    },
+    {
+      "de": "el-bombero",
+      "a": "tervonx",
+      "tipo": "trabaja_en",
+      "nota": "gasolinera"
+    },
+    {
+      "de": "el-inversionista",
+      "a": "tervonx",
+      "tipo": "invierte_en",
+      "nota": "sus acciones suben… y la gasolina también"
+    },
+    {
+      "de": "el-alcalde",
+      "a": "gobierno-digitalia",
+      "tipo": "dirige",
+      "nota": ""
+    },
+    {
+      "de": "la-mujer-empoderada",
+      "a": "matchi",
+      "tipo": "usa",
+      "nota": "usuaria premium"
+    },
+    {
+      "de": "el-robot",
+      "a": "xpacio",
+      "tipo": "fabricado_por",
+      "nota": "serie Unidad"
+    },
+    {
+      "de": "dona-yesenia",
+      "a": "xpacio",
+      "tipo": "cliente_de",
+      "nota": "compró a Unidad‑7"
+    },
+    {
+      "de": "el-de-izquierda",
+      "a": "blakrok",
+      "tipo": "protesta_contra",
+      "nota": "con camiseta comprada en Blakrok"
+    },
+    {
+      "de": "los-manifestantes",
+      "a": "blakrok",
+      "tipo": "protesta_contra",
+      "nota": "EP003"
+    },
+    {
+      "de": "el-capitalista",
+      "a": "los-manifestantes",
+      "tipo": "compra",
+      "nota": "la empresa de tinturas: el pelo azul es resistencia"
+    },
+    {
+      "de": "el-gay",
+      "a": "los-manifestantes",
+      "tipo": "disena_para",
+      "nota": "escribió sus pancartas sin que lo sepan"
+    },
+    {
+      "de": "el-de-izquierda",
+      "a": "los-manifestantes",
+      "tipo": "lidera",
+      "nota": ""
+    },
+    {
+      "de": "el-de-derecha",
+      "a": "el-de-izquierda",
+      "tipo": "familia",
+      "nota": "padre e hijo: le paga el iPhone"
+    },
+    {
+      "de": "el-intelectual",
+      "a": "el-de-izquierda",
+      "tipo": "mentor",
+      "nota": ""
+    },
+    {
+      "de": "el-intelectual",
+      "a": "el-de-derecha",
+      "tipo": "rivalidad",
+      "nota": "guerra en el grupo de WhatsApp"
+    },
+    {
+      "de": "el-de-derecha",
+      "a": "el-capitalista",
+      "tipo": "admira",
+      "nota": "Larry no sabe que existe"
+    },
+    {
+      "de": "el-ceo-tech",
+      "a": "el-robot",
+      "tipo": "creo",
+      "nota": "se lleva el crédito"
+    },
+    {
+      "de": "el-negro",
+      "a": "el-robot",
+      "tipo": "creo",
+      "nota": "lo diseñó de verdad"
+    },
+    {
+      "de": "el-ceo-tech",
+      "a": "el-negro",
+      "tipo": "roba_credito",
+      "nota": ""
+    },
+    {
+      "de": "el-ceo-tech",
+      "a": "el-capitalista",
+      "tipo": "financiado_por",
+      "nota": ""
+    },
+    {
+      "de": "el-robot",
+      "a": "dona-yesenia",
+      "tipo": "sirve_a",
+      "nota": "le tiene miedo"
+    },
+    {
+      "de": "el-robot",
+      "a": "el-asalariado",
+      "tipo": "reemplazo",
+      "nota": "ocupó su puesto en Moogle"
+    },
+    {
+      "de": "el-empresario",
+      "a": "el-asalariado",
+      "tipo": "despidio",
+      "nota": "\"aquí somos familia\""
+    },
+    {
+      "de": "el-alcalde",
+      "a": "el-politico",
+      "tipo": "rivalidad",
+      "nota": "elecciones"
+    },
+    {
+      "de": "el-enano",
+      "a": "el-alcalde",
+      "tipo": "asesora",
+      "nota": ""
+    },
+    {
+      "de": "el-enano",
+      "a": "el-politico",
+      "tipo": "asesora",
+      "nota": "en secreto"
+    },
+    {
+      "de": "el-alcalde",
+      "a": "don-ubaldo",
+      "tipo": "conflicto",
+      "nota": "quiere tapar el bache para la foto"
+    },
+    {
+      "de": "el-payaso",
+      "a": "el-politico",
+      "tipo": "rivalidad",
+      "nota": "el senador le copia el número"
+    },
+    {
+      "de": "el-inversionista",
+      "a": "el-bombero",
+      "tipo": "choca_con",
+      "nota": "EP004"
+    },
+    {
+      "de": "el-inversionista",
+      "a": "el-de-derecha",
+      "tipo": "afinidad",
+      "nota": "hasta que sube la gasolina"
+    },
+    {
+      "de": "el-inversionista",
+      "a": "el-de-izquierda",
+      "tipo": "se_vuelve",
+      "nota": "con máscara, por 5 minutos"
+    },
+    {
+      "de": "la-mujer-empoderada",
+      "a": "la-feminista",
+      "tipo": "amistad",
+      "nota": "mejores amigas"
+    },
+    {
+      "de": "la-mujer-empoderada",
+      "a": "el-buen-tipo",
+      "tipo": "cita",
+      "nota": "lo descarta por tener Android"
+    },
+    {
+      "de": "la-feminista",
+      "a": "el-intelectual",
+      "tipo": "colabora",
+      "nota": "podcast en Café Contexto"
+    },
+    {
+      "de": "el-buen-tipo",
+      "a": "el-gym-bro",
+      "tipo": "amistad",
+      "nota": "su amigo le dice que el problema es la mentalidad"
+    },
+    {
+      "de": "el-gym-bro",
+      "a": "la-mujer-empoderada",
+      "tipo": "cita",
+      "nota": "pasa todos los filtros de Matchi… y ninguno más"
+    },
+    {
+      "de": "la-lesbiana",
+      "a": "el-gay",
+      "tipo": "amistad",
+      "nota": "ella le reclama por el marketing arcoíris"
+    },
+    {
+      "de": "la-lesbiana",
+      "a": "la-feminista",
+      "tipo": "ex_pareja",
+      "nota": "terminaron por un podcast"
+    },
+    {
+      "de": "el-asiatico",
+      "a": "el-humano-offline",
+      "tipo": "alianza",
+      "nota": "los dos usan celular de tapa / ninguno"
+    },
+    {
+      "de": "los-agentes",
+      "a": "el-humano-offline",
+      "tipo": "persigue",
+      "nota": "ciudadano no verificado"
+    },
+    {
+      "de": "los-zombis-digitales",
+      "a": "el-humano-offline",
+      "tipo": "acosa",
+      "nota": "lo graban"
+    },
+    {
+      "de": "el-homo-digitalis",
+      "a": "los-zombis-digitales",
+      "tipo": "pertenece_a",
+      "nota": "el espectador promedio"
+    },
+    {
+      "de": "el-capitalista",
+      "a": "torre-blakrok",
+      "tipo": "frecuenta",
+      "nota": ""
+    },
+    {
+      "de": "los-socios",
+      "a": "torre-blakrok",
+      "tipo": "frecuenta",
+      "nota": ""
+    },
+    {
+      "de": "el-gay",
+      "a": "torre-blakrok",
+      "tipo": "trabaja_en",
+      "nota": ""
+    },
+    {
+      "de": "el-ceo-tech",
+      "a": "hangar-xpacio",
+      "tipo": "frecuenta",
+      "nota": ""
+    },
+    {
+      "de": "el-negro",
+      "a": "hangar-xpacio",
+      "tipo": "trabaja_en",
+      "nota": ""
+    },
+    {
+      "de": "el-empresario",
+      "a": "oficinas-moogle",
+      "tipo": "trabaja_en",
+      "nota": ""
+    },
+    {
+      "de": "el-asalariado",
+      "a": "oficinas-moogle",
+      "tipo": "vive_en",
+      "nota": "el andén de enfrente, desde EP005"
+    },
+    {
+      "de": "el-alcalde",
+      "a": "calle-del-bache",
+      "tipo": "frecuenta",
+      "nota": "inauguraciones"
+    },
+    {
+      "de": "don-ubaldo",
+      "a": "calle-del-bache",
+      "tipo": "vive_en",
+      "nota": ""
+    },
+    {
+      "de": "el-alcalde",
+      "a": "alcaldia",
+      "tipo": "trabaja_en",
+      "nota": ""
+    },
+    {
+      "de": "el-enano",
+      "a": "alcaldia",
+      "tipo": "trabaja_en",
+      "nota": ""
+    },
+    {
+      "de": "el-humano-offline",
+      "a": "plaza-central",
+      "tipo": "frecuenta",
+      "nota": ""
+    },
+    {
+      "de": "el-humano-offline",
+      "a": "parque-central",
+      "tipo": "frecuenta",
+      "nota": "su banca"
+    },
+    {
+      "de": "los-zombis-digitales",
+      "a": "plaza-central",
+      "tipo": "frecuenta",
+      "nota": ""
+    },
+    {
+      "de": "los-manifestantes",
+      "a": "plaza-central",
+      "tipo": "frecuenta",
+      "nota": "marchas"
+    },
+    {
+      "de": "el-de-izquierda",
+      "a": "plaza-central",
+      "tipo": "frecuenta",
+      "nota": "marchas"
+    },
+    {
+      "de": "el-inversionista",
+      "a": "gasolinera-tervonx",
+      "tipo": "frecuenta",
+      "nota": ""
+    },
+    {
+      "de": "el-bombero",
+      "a": "gasolinera-tervonx",
+      "tipo": "trabaja_en",
+      "nota": ""
+    },
+    {
+      "de": "la-mujer-empoderada",
+      "a": "restaurante-la-terraza",
+      "tipo": "frecuenta",
+      "nota": "citas"
+    },
+    {
+      "de": "el-buen-tipo",
+      "a": "restaurante-la-terraza",
+      "tipo": "frecuenta",
+      "nota": ""
+    },
+    {
+      "de": "la-mujer-empoderada",
+      "a": "apartamento-de-valentina",
+      "tipo": "vive_en",
+      "nota": ""
+    },
+    {
+      "de": "la-feminista",
+      "a": "apartamento-de-valentina",
+      "tipo": "frecuenta",
+      "nota": ""
+    },
+    {
+      "de": "dona-yesenia",
+      "a": "apartamento-de-yesenia",
+      "tipo": "vive_en",
+      "nota": ""
+    },
+    {
+      "de": "el-robot",
+      "a": "apartamento-de-yesenia",
+      "tipo": "vive_en",
+      "nota": "en la esquina, cargando"
+    },
+    {
+      "de": "el-gym-bro",
+      "a": "gimnasio-alpha-mindset",
+      "tipo": "vive_en",
+      "nota": "prácticamente"
+    },
+    {
+      "de": "el-intelectual",
+      "a": "cafe-contexto",
+      "tipo": "frecuenta",
+      "nota": ""
+    },
+    {
+      "de": "la-feminista",
+      "a": "cafe-contexto",
+      "tipo": "frecuenta",
+      "nota": ""
+    },
+    {
+      "de": "el-de-izquierda",
+      "a": "cafe-contexto",
+      "tipo": "frecuenta",
+      "nota": ""
+    },
+    {
+      "de": "la-lesbiana",
+      "a": "taller-de-majo",
+      "tipo": "trabaja_en",
+      "nota": ""
+    },
+    {
+      "de": "el-payaso",
+      "a": "esquina-del-semaforo",
+      "tipo": "trabaja_en",
+      "nota": ""
+    },
+    {
+      "de": "el-politico",
+      "a": "esquina-del-semaforo",
+      "tipo": "frecuenta",
+      "nota": "vallas"
+    },
+    {
+      "de": "el-asiatico",
+      "a": "restaurante-chen",
+      "tipo": "trabaja_en",
+      "nota": ""
+    },
+    {
+      "de": "el-humano-offline",
+      "a": "restaurante-chen",
+      "tipo": "frecuenta",
+      "nota": "refugio sin wifi"
+    },
+    {
+      "de": "el-de-derecha",
+      "a": "grupo-familia-unida",
+      "tipo": "dirige",
+      "nota": "admin"
+    },
+    {
+      "de": "el-intelectual",
+      "a": "grupo-familia-unida",
+      "tipo": "frecuenta",
+      "nota": ""
+    },
+    {
+      "de": "el-de-izquierda",
+      "a": "grupo-familia-unida",
+      "tipo": "frecuenta",
+      "nota": "silenciado"
+    },
+    {
+      "de": "el-homo-digitalis",
+      "a": "plaza-central",
+      "tipo": "frecuenta",
+      "nota": "cameo"
+    },
+    {
+      "de": "el-humano-offline",
+      "a": "EP001",
+      "tipo": "aparece_en",
+      "nota": "protagonista"
+    },
+    {
+      "de": "los-zombis-digitales",
+      "a": "EP001",
+      "tipo": "aparece_en",
+      "nota": ""
+    },
+    {
+      "de": "los-agentes",
+      "a": "EP001",
+      "tipo": "aparece_en",
+      "nota": ""
+    },
+    {
+      "de": "plaza-central",
+      "a": "EP001",
+      "tipo": "escenario_de",
+      "nota": ""
+    },
+    {
+      "de": "parque-central",
+      "a": "EP001",
+      "tipo": "escenario_de",
+      "nota": ""
+    },
+    {
+      "de": "torre-blakrok",
+      "a": "EP001",
+      "tipo": "escenario_de",
+      "nota": "pantalla"
+    },
+    {
+      "de": "la-mujer-empoderada",
+      "a": "EP002",
+      "tipo": "aparece_en",
+      "nota": "protagonista"
+    },
+    {
+      "de": "la-feminista",
+      "a": "EP002",
+      "tipo": "aparece_en",
+      "nota": ""
+    },
+    {
+      "de": "el-buen-tipo",
+      "a": "EP002",
+      "tipo": "aparece_en",
+      "nota": ""
+    },
+    {
+      "de": "restaurante-la-terraza",
+      "a": "EP002",
+      "tipo": "escenario_de",
+      "nota": ""
+    },
+    {
+      "de": "apartamento-de-valentina",
+      "a": "EP002",
+      "tipo": "escenario_de",
+      "nota": ""
+    },
+    {
+      "de": "matchi",
+      "a": "EP002",
+      "tipo": "aparece_en",
+      "nota": ""
+    },
+    {
+      "de": "el-capitalista",
+      "a": "EP003",
+      "tipo": "aparece_en",
+      "nota": "protagonista"
+    },
+    {
+      "de": "los-socios",
+      "a": "EP003",
+      "tipo": "aparece_en",
+      "nota": ""
+    },
+    {
+      "de": "los-manifestantes",
+      "a": "EP003",
+      "tipo": "aparece_en",
+      "nota": ""
+    },
+    {
+      "de": "torre-blakrok",
+      "a": "EP003",
+      "tipo": "escenario_de",
+      "nota": ""
+    },
+    {
+      "de": "plaza-central",
+      "a": "EP003",
+      "tipo": "escenario_de",
+      "nota": ""
+    },
+    {
+      "de": "el-inversionista",
+      "a": "EP004",
+      "tipo": "aparece_en",
+      "nota": "protagonista"
+    },
+    {
+      "de": "el-bombero",
+      "a": "EP004",
+      "tipo": "aparece_en",
+      "nota": ""
+    },
+    {
+      "de": "gasolinera-tervonx",
+      "a": "EP004",
+      "tipo": "escenario_de",
+      "nota": ""
+    },
+    {
+      "de": "el-asalariado",
+      "a": "EP005",
+      "tipo": "aparece_en",
+      "nota": "protagonista"
+    },
+    {
+      "de": "el-empresario",
+      "a": "EP005",
+      "tipo": "aparece_en",
+      "nota": ""
+    },
+    {
+      "de": "oficinas-moogle",
+      "a": "EP005",
+      "tipo": "escenario_de",
+      "nota": ""
+    },
+    {
+      "de": "el-homo-digitalis",
+      "a": "adiccion-digital",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "el-alcalde",
+      "a": "politica-show",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "el-alcalde",
+      "a": "abandono-estatal",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "el-politico",
+      "a": "politica-show",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "el-politico",
+      "a": "polarizacion",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "el-ceo-tech",
+      "a": "ia-automatizacion",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "el-ceo-tech",
+      "a": "cultura-corporativa",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "el-capitalista",
+      "a": "corporaciones-absorben-protesta",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "el-capitalista",
+      "a": "vigilancia-datos",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "los-socios",
+      "a": "cultura-corporativa",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "el-empresario",
+      "a": "cultura-corporativa",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "el-empresario",
+      "a": "ia-automatizacion",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "el-asalariado",
+      "a": "cultura-corporativa",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "el-asalariado",
+      "a": "ia-automatizacion",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "el-inversionista",
+      "a": "capitalismo-de-conveniencia",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "el-inversionista",
+      "a": "polarizacion",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "el-bombero",
+      "a": "capitalismo-de-conveniencia",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "el-humano-offline",
+      "a": "vigilancia-datos",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "el-humano-offline",
+      "a": "adiccion-digital",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "los-zombis-digitales",
+      "a": "adiccion-digital",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "los-agentes",
+      "a": "vigilancia-datos",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "los-manifestantes",
+      "a": "corporaciones-absorben-protesta",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "los-manifestantes",
+      "a": "activismo-performativo",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "la-mujer-empoderada",
+      "a": "apps-de-citas",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "la-mujer-empoderada",
+      "a": "adiccion-digital",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "la-feminista",
+      "a": "activismo-performativo",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "la-feminista",
+      "a": "apps-de-citas",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "el-buen-tipo",
+      "a": "apps-de-citas",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "dona-yesenia",
+      "a": "ia-automatizacion",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "dona-yesenia",
+      "a": "adiccion-digital",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "el-robot",
+      "a": "ia-automatizacion",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "don-ubaldo",
+      "a": "abandono-estatal",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "el-gym-bro",
+      "a": "cultura-fitness",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "el-gym-bro",
+      "a": "adiccion-digital",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "la-lesbiana",
+      "a": "tokenismo",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "la-lesbiana",
+      "a": "corporaciones-absorben-protesta",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "el-gay",
+      "a": "tokenismo",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "el-gay",
+      "a": "corporaciones-absorben-protesta",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "el-negro",
+      "a": "tokenismo",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "el-negro",
+      "a": "ia-automatizacion",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "el-asiatico",
+      "a": "tokenismo",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "el-asiatico",
+      "a": "vigilancia-datos",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "el-enano",
+      "a": "politica-show",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "el-enano",
+      "a": "desinformacion",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "el-payaso",
+      "a": "politica-show",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "el-payaso",
+      "a": "desinformacion",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "el-intelectual",
+      "a": "polarizacion",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "el-intelectual",
+      "a": "desinformacion",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "el-de-izquierda",
+      "a": "polarizacion",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "el-de-izquierda",
+      "a": "activismo-performativo",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "el-de-derecha",
+      "a": "polarizacion",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "el-de-derecha",
+      "a": "desinformacion",
+      "tipo": "satiriza",
+      "nota": ""
+    },
+    {
+      "de": "EP001",
+      "a": "vigilancia-datos",
+      "tipo": "trata",
+      "nota": ""
+    },
+    {
+      "de": "EP001",
+      "a": "adiccion-digital",
+      "tipo": "trata",
+      "nota": ""
+    },
+    {
+      "de": "EP002",
+      "a": "apps-de-citas",
+      "tipo": "trata",
+      "nota": ""
+    },
+    {
+      "de": "EP003",
+      "a": "corporaciones-absorben-protesta",
+      "tipo": "trata",
+      "nota": ""
+    },
+    {
+      "de": "EP003",
+      "a": "activismo-performativo",
+      "tipo": "trata",
+      "nota": ""
+    },
+    {
+      "de": "EP004",
+      "a": "capitalismo-de-conveniencia",
+      "tipo": "trata",
+      "nota": ""
+    },
+    {
+      "de": "EP005",
+      "a": "cultura-corporativa",
+      "tipo": "trata",
+      "nota": ""
+    },
+    {
+      "de": "EP005",
+      "a": "ia-automatizacion",
+      "tipo": "trata",
+      "nota": ""
+    }
+  ]
+}
