@@ -6,14 +6,14 @@ Cada lugar tiene `ficha.md` (descripción, luz, prompt) + `imagenes/`. Mantén l
 |---|---|---|---|
 | <img src="torre-blakrok/imagenes/exterior-torre.jpg" width="80"> | [Torre Blakrok](torre-blakrok/ficha.md) | Corporativo | 🟢 Canon |
 | <img src="oficinas-moogle/imagenes/exterior-moogle.jpg" width="80"> | [Oficinas de Moogle](oficinas-moogle/ficha.md) | Corporativo | 🟢 Canon |
-| — | [Hangar de lanzamientos Xpacio](hangar-xpacio/ficha.md) | Corporativo | 🟡 Diseñado |
+| <img src="hangar-xpacio/imagenes/escenario-con-robots.jpg" width="80"> | [Hangar de lanzamientos Xpacio](hangar-xpacio/ficha.md) | Corporativo | 🟡 Diseñado |
 | <img src="calle-del-bache/imagenes/bache-atraccion-turistica.jpg" width="80"> | [Calle del Bache (Barrio La Esperanza)](calle-del-bache/ficha.md) | Barrio popular | 🟡 Diseñado |
-| — | [Plaza Central / Avenida Principal](plaza-central/ficha.md) | Espacio público | 🟢 Canon |
-| — | [Parque Central (la banca)](parque-central/ficha.md) | Espacio público | 🟢 Canon |
-| — | [Gasolinera Tervonx](gasolinera-tervonx/ficha.md) | Comercio | 🟢 Canon |
+| <img src="plaza-central/imagenes/avenida-con-marcha.jpg" width="80"> | [Plaza Central / Avenida Principal](plaza-central/ficha.md) | Espacio público | 🟢 Canon |
+| <img src="parque-central/imagenes/banca-de-dia.jpg" width="80"> | [Parque Central (la banca)](parque-central/ficha.md) | Espacio público | 🟢 Canon |
+| <img src="gasolinera-tervonx/imagenes/gasolinera-precio-40.jpg" width="80"> | [Gasolinera Tervonx](gasolinera-tervonx/ficha.md) | Comercio | 🟢 Canon |
 | <img src="restaurante-la-terraza/imagenes/cita-julian-y-valentina.jpg" width="80"> | [Restaurante La Terraza](restaurante-la-terraza/ficha.md) | Comercio | 🟢 Canon |
 | <img src="apartamento-de-valentina/imagenes/sala-valentina-y-zuri.jpg" width="80"> | [Apartamento de Valentina](apartamento-de-valentina/ficha.md) | Vivienda | 🟢 Canon |
-| — | [Apartamento de Doña Yesenia](apartamento-de-yesenia/ficha.md) | Vivienda | 🟡 Diseñado |
+| <img src="apartamento-de-yesenia/imagenes/cuarto.jpg" width="80"> | [Apartamento de Doña Yesenia](apartamento-de-yesenia/ficha.md) | Vivienda | 🟡 Diseñado |
 | — | [Edificio de la Alcaldía](alcaldia/ficha.md) | Institucional | ⚪ Propuesto |
 | — | [Gimnasio Alpha Mindset](gimnasio-alpha-mindset/ficha.md) | Comercio | ⚪ Propuesto |
 | — | [Café Contexto](cafe-contexto/ficha.md) | Comercio | ⚪ Propuesto |

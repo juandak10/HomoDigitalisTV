@@ -469,7 +469,7 @@
       "subtipo": "Corporativo",
       "estado": "diseñado",
       "ficha": "04-locaciones/hangar-xpacio/ficha.md",
-      "imagen": null
+      "imagen": "04-locaciones/hangar-xpacio/imagenes/escenario-con-robots.jpg"
     },
     {
       "id": "calle-del-bache",
@@ -487,7 +487,7 @@
       "subtipo": "Espacio público",
       "estado": "canon",
       "ficha": "04-locaciones/plaza-central/ficha.md",
-      "imagen": null
+      "imagen": "04-locaciones/plaza-central/imagenes/avenida-con-marcha.jpg"
     },
     {
       "id": "parque-central",
@@ -496,7 +496,7 @@
       "subtipo": "Espacio público",
       "estado": "canon",
       "ficha": "04-locaciones/parque-central/ficha.md",
-      "imagen": null
+      "imagen": "04-locaciones/parque-central/imagenes/banca-de-dia.jpg"
     },
     {
       "id": "gasolinera-tervonx",
@@ -505,7 +505,7 @@
       "subtipo": "Comercio",
       "estado": "canon",
       "ficha": "04-locaciones/gasolinera-tervonx/ficha.md",
-      "imagen": null
+      "imagen": "04-locaciones/gasolinera-tervonx/imagenes/gasolinera-precio-40.jpg"
     },
     {
       "id": "restaurante-la-terraza",
@@ -532,7 +532,7 @@
       "subtipo": "Vivienda",
       "estado": "diseñado",
       "ficha": "04-locaciones/apartamento-de-yesenia/ficha.md",
-      "imagen": null
+      "imagen": "04-locaciones/apartamento-de-yesenia/imagenes/cuarto.jpg"
     },
     {
       "id": "alcaldia",
@@ -943,7 +943,7 @@
       "de": "el-intelectual",
       "a": "el-de-derecha",
       "tipo": "rivalidad",
-      "nota": "guerra en el grupo de WhatsApp"
+      "nota": "concuñados en guerra en el grupo de WhatsApp"
     },
     {
       "de": "el-de-derecha",

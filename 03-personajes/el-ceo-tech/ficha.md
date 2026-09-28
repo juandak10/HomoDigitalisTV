@@ -5,7 +5,7 @@
 ![lanzamiento-robots-01.jpg](imagenes/lanzamiento-robots-01.jpg)
 ![lanzamiento-robots-02.jpg](imagenes/lanzamiento-robots-02.jpg)
 
-## Ficha
+## Ficha rápida
 | | |
 |---|---|
 | **Edad** | 50 |
@@ -15,15 +15,58 @@
 | **Frase típica** | "Este robot no toma vacaciones. Ni ustedes, a partir de mañana." |
 | **Temas que satiriza** | `ia-automatizacion`, `cultura-corporativa` |
 
+## Descripción física
+- **Complexión y estatura:** Alto (1,85 m), torso ancho pero blando, brazos largos que cuelgan sin saber qué hacer. Ligera barriga que la camiseta negra no disimula.
+- **Rostro:** Cara larga y rectangular, mentón prominente, boca ancha de labios delgados que casi siempre forman una línea recta o una sonrisa torcida e incómoda. Nariz recta mediana.
+- **Ojos:** Ojos saltones de la marca con **párpados muy caídos**, ojeras marcadas y una mirada perdida, como si estuviera pensando en otro planeta. Parpadea poco.
+- **Pelo:** Corto, castaño oscuro, con **entradas pronunciadas** e implante visible (la línea del pelo demasiado perfecta para su edad).
+- **Piel:** Clara (`#E6C4AA`), pálida de luz artificial.
+- **Señas particulares:** Tics: se toca la oreja y se ríe solo de sus propios chistes con una risa corta y nasal.
+
+## Vestuario
+- **Look principal:** **Camiseta negra lisa** (`#1E1E22`), **jeans azul oscuro** rectos, **tenis blancos** impecables. Lo mismo todos los días "para no gastar decisiones".
+- **Variantes:** Chaqueta de cuero negra en eventos grandes. Casco de astronauta de utilería para anuncios de Marte. Una gorra con el logo de Xpacio.
+- **Accesorios icónicos:** Micrófono de diadema o pedestal de keynote, **un robot Unidad siempre a su lado** como asistente, control remoto de presentación.
+
+## Lenguaje corporal y expresiones
+- **Postura:** De pie, algo encorvado, balanceándose sobre los talones. Brazos que gesticulan tarde, desfasados de lo que dice.
+- **Gestos recurrentes:** Presenta con la palma abierta hacia los robots, como un mago aburrido. Mira al piso cuando le hacen preguntas difíciles.
+- **Expresión por defecto:** Cansancio existencial: cara de lunes aunque esté anunciando el futuro de la humanidad.
+- **Rango de expresiones:** Emoción = sonrisa torcida y risita nasal; enojo = parpadeo lento y silencio; miedo = cuando un robot le lleva la contraria.
+
 ## Personalidad
-Anuncia el futuro con la energía de un lunes. Presenta robots que reemplazan empleados como si fuera un favor. Se lleva el crédito del trabajo de Marlon.
+Elón anuncia el apocalipsis laboral con la energía de alguien leyendo el menú. Está convencido de que salva a la humanidad automatizándola, y a la vez sueña con irse a Marte, lejos de la humanidad que automatizó.
+- **Contradicción central:** Promete liberar a las personas del trabajo… despidiéndolas.
+- **Virtudes:** Visionario (de verdad tiene ideas), trabajador compulsivo.
+- **Defectos:** Cero empatía, se lleva el crédito de otros (sobre todo de Marlon), promete fechas imposibles.
+- **Qué lo alegra / qué lo saca de quicio:** Lo alegra un cohete que despega. Lo saca de quicio la palabra "sindicato".
 
-## Diseño visual
-Calvicie incipiente, cara cansada con ojeras, camiseta negra, jeans, tenis blancos. Siempre bajo un spotlight en un escenario industrial, rodeado de robots en fila.
+## Cómo habla
+- **Voz:** Masculina de 50 años, monótona, levemente nasal, con pausas largas e incómodas y tartamudeos al principio de las frases.
+- **Ritmo y tono:** Lento, entre dientes, sin énfasis, como si todo fuera obvio.
+- **Muletillas:** "Eh… eh… básicamente…" · "Es… es… es obvio, ¿no?" · "El año que viene. Seguro."
+- **Frases de ejemplo:** "Este robot no toma vacaciones. Ni ustedes, a partir de mañana." · "Vamos a colonizar Marte… eh… en dos semanas." · "No los estamos reemplazando. Los estamos… liberando."
 
-**Prompt de consistencia** (pegar después del [prompt base de estilo](../../01-estilo-visual/prompts-base.md)):
+## Historia
+Fundó Xpacio vendiendo una app de pagos y luego prometiendo cohetes. Su gran producto es la serie de robots domésticos **Unidad**, que en realidad diseñó su ingeniero Marlon. Financiado por Blakrok. Cada lanzamiento es en el hangar industrial con robots en fila y público grabando con el celular.
+
+## Relación con la tecnología
+Es su religión y su escape. Cree que todo problema humano se resuelve con más tecnología, incluido el problema que creó la tecnología anterior.
+
+## Rol cómico
+- **Función:** Sátira de los tech-billonarios, de la automatización y del culto al CEO.
+- **Situaciones ideales:** Keynotes absurdos, robots que fallan en vivo, anuncios de reemplazo laboral, Marlon arreglando todo detrás de él.
+- **Evitar:** Referencias literales a una persona real (nombre, logo, cohete de SpaceX); siempre parodia de Xpacio.
+
+## Estilo visual del personaje
+- **Paleta propia:** camiseta `#1E1E22` · jeans `#2F3B57` · tenis `#F2F2F2` · piel `#E6C4AA` · robots beige `#D9CBB5` · spotlight `#F4EFE6`.
+- **Luz que le queda:** Spotlight cenital duro en penumbra azul-gris (escenario), con polvo en el aire.
+- **Encuadres:** Plano entero pequeño en escenario grande con robots a los lados y público de espaldas en primer plano (se ve diminuto frente a su propia obra).
+- **Consistencia:** camiseta negra, jeans, tenis blancos, entradas, cara de cansancio.
+
+## Prompt de consistencia
 ```
-tired tech CEO in his 50s, receding short hair, droopy eyes and bags, plain black t-shirt, blue jeans, white sneakers, standing on a dark stage under spotlights with a microphone stand
+tall awkward tech CEO around 50, soft body with slight belly, long rectangular face with prominent chin, thin lips in a flat awkward line, receding dark brown hairline with suspiciously perfect hair transplant, very droopy tired eyelids with dark bags and distant stare, plain black t-shirt, straight dark blue jeans, spotless white sneakers, presenting with an open palm toward a row of beige humanoid robots, standing on a dark keynote stage under a harsh spotlight with a microphone stand
 ```
 
 ## Relaciones

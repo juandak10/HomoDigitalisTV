@@ -4,7 +4,7 @@
 
 _Sin imágenes todavía. Genera la hoja de personaje con el prompt de abajo y guárdala en `imagenes/` como `los-manifestantes__hoja-de-personaje.jpg`._
 
-## Ficha
+## Ficha rápida
 | | |
 |---|---|
 | **Edad** | — |
@@ -14,15 +14,41 @@ _Sin imágenes todavía. Genera la hoja de personaje con el prompt de abajo y gu
 | **Frase típica** | "¡Abajo las corporaciones!" |
 | **Temas que satiriza** | `corporaciones-absorben-protesta`, `activismo-performativo` |
 
-## Personalidad
-Luchan contra el sistema con productos que les vende el sistema.
+## Descripción física
+- **Composición del grupo:** Multitud joven y diversa (18–35 años): hombres, mujeres, personas no binarias, de todos los tonos de piel y complexiones.
+- **Rostros:** Expresivos, bocas abiertas gritando consignas, cejas fruncidas de indignación.
+- **Pelo:** Variado antes del giro. **Después de EP003: todos con pelo azul brillante** (`#2F9BE0`), en todos los cortes posibles (rapado, largo, afro, mohicano).
+- **Señas particulares:** Maquillaje de rayas en las mejillas, piercings, tatuajes pequeños.
 
-## Diseño visual
-Multitud con banderas arcoíris, pancartas "Abajo las corporaciones", megáfono. Tras el giro: todos con pelo azul (tintura Blakrok).
+## Vestuario
+- **Look:** Chaquetas de jean, camisetas con consignas, pañoletas, hoodies, mochilas. Colores apagados salvo banderas y pelo.
+- **Accesorios:** **Banderas arcoíris** y de otras causas, **pancartas de cartón "ABAJO LAS CORPORACIONES"** escritas a mano, **megáfono**, celulares grabando la marcha (Blakrok se ve en la marca del celular).
 
-**Prompt de consistencia** (pegar después del [prompt base de estilo](../../01-estilo-visual/prompts-base.md)):
+## Lenguaje corporal y expresiones
+- **Postura:** Avanzan en bloque, brazos en alto.
+- **Gestos recurrentes:** Puños arriba, pancartas agitadas, selfies en medio de la marcha.
+- **Expresión por defecto:** Indignación entusiasta.
+
+## Personalidad (colectiva)
+Luchan de verdad contra el sistema… con productos del sistema. No son tontos: son el ejemplo de cómo el mercado absorbe cualquier rebeldía. Liderados por Nico. Sus pancartas, sin que lo sepan, las diseñó Sebas, el community manager de Blakrok.
+
+## Cómo hablan
+- **Voz:** Coro de voces jóvenes gritando consignas por megáfono.
+- **Frases de ejemplo:** "¡ABAJO LAS CORPORACIONES!" · "¡El pelo azul es resistencia!" · "¿Alguien tiene cargador?"
+
+## Rol cómico
+- **Función:** Mostrar la absorción de la protesta por el mercado.
+- **Situaciones ideales:** Marchas patrocinadas, merch de la revolución, cancelar a alguien por la tintura equivocada.
+- **Evitar:** Ridiculizar las causas en sí (derechos LGBT, ambientales); el blanco es la comercialización de la protesta.
+
+## Estilo visual del grupo
+- **Paleta:** ropa `#4D5560`, `#6B6259`, `#3F4650` · pelo azul `#2F9BE0` · banderas arcoíris desaturadas · cartón `#B99A6B`.
+- **Luz:** Día nublado plano en la avenida; la torre Blakrok negra al fondo.
+- **Encuadres:** Plano general de la marcha hacia la cámara con la torre detrás; plano detalle de pancartas.
+
+## Prompt de consistencia
 ```
-protest crowd with rainbow flags and cardboard signs, megaphone, many with bright blue dyed hair
+diverse young protest crowd marching down a grey avenue, many with bright electric-blue dyed hair, rainbow flags and handwritten cardboard signs reading "ABAJO LAS CORPORACIONES", a megaphone, denim jackets, hoodies and bandanas, raised fists, phones recording
 ```
 
 ## Relaciones
